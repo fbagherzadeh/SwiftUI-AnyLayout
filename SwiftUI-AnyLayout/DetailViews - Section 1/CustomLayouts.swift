@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CustomLayouts: View {
-  @State var isBackslash = false
+  @State var isBackslash = true
   
   var body: some View {
     let layout = isBackslash ? AnyLayout(BackslashStack())
@@ -35,7 +35,6 @@ struct CustomLayouts_Previews: PreviewProvider {
     CustomLayouts()
   }
 }
-
 
 struct BackslashStack: Layout {
   func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {

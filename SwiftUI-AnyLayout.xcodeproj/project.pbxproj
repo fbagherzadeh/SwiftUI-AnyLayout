@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A4812AB2ADDD8F900BDD5C8 /* ProportionalWidthHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4812AA2ADDD8F900BDD5C8 /* ProportionalWidthHStack.swift */; };
+		0A4812AD2ADDDA2000BDD5C8 /* GeometryReaderHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4812AC2ADDDA2000BDD5C8 /* GeometryReaderHStack.swift */; };
+		0A4812AF2ADDDC5100BDD5C8 /* StateGeometryReaderHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4812AE2ADDDC5100BDD5C8 /* StateGeometryReaderHStack.swift */; };
+		0A4812B12ADDDFC700BDD5C8 /* PreferenceKeyStateGeoReaderHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4812B02ADDDFC700BDD5C8 /* PreferenceKeyStateGeoReaderHStack.swift */; };
 		0AACD92C2A70D9F10070A518 /* SwiftUI_AnyLayoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AACD92B2A70D9F10070A518 /* SwiftUI_AnyLayoutApp.swift */; };
 		0AACD92E2A70D9F10070A518 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AACD92D2A70D9F10070A518 /* ContentView.swift */; };
 		0AACD9302A70D9F20070A518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AACD92F2A70D9F20070A518 /* Assets.xcassets */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A4812AA2ADDD8F900BDD5C8 /* ProportionalWidthHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProportionalWidthHStack.swift; sourceTree = "<group>"; };
+		0A4812AC2ADDDA2000BDD5C8 /* GeometryReaderHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderHStack.swift; sourceTree = "<group>"; };
+		0A4812AE2ADDDC5100BDD5C8 /* StateGeometryReaderHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateGeometryReaderHStack.swift; sourceTree = "<group>"; };
+		0A4812B02ADDDFC700BDD5C8 /* PreferenceKeyStateGeoReaderHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyStateGeoReaderHStack.swift; sourceTree = "<group>"; };
 		0AACD9282A70D9F10070A518 /* SwiftUI-AnyLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-AnyLayout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AACD92B2A70D9F10070A518 /* SwiftUI_AnyLayoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AnyLayoutApp.swift; sourceTree = "<group>"; };
 		0AACD92D2A70D9F10070A518 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +46,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A4812A92ADDD8AC00BDD5C8 /* DetailViews - Section 2 */ = {
+			isa = PBXGroup;
+			children = (
+				0A4812AC2ADDDA2000BDD5C8 /* GeometryReaderHStack.swift */,
+				0A4812AE2ADDDC5100BDD5C8 /* StateGeometryReaderHStack.swift */,
+				0A4812B02ADDDFC700BDD5C8 /* PreferenceKeyStateGeoReaderHStack.swift */,
+				0A4812AA2ADDD8F900BDD5C8 /* ProportionalWidthHStack.swift */,
+			);
+			path = "DetailViews - Section 2";
+			sourceTree = "<group>";
+		};
 		0AACD91F2A70D9F10070A518 = {
 			isa = PBXGroup;
 			children = (
@@ -59,7 +78,8 @@
 			children = (
 				0AACD92B2A70D9F10070A518 /* SwiftUI_AnyLayoutApp.swift */,
 				0AACD92D2A70D9F10070A518 /* ContentView.swift */,
-				0AAF091A2A76758500689E45 /* DetailViews */,
+				0AAF091A2A76758500689E45 /* DetailViews - Section 1 */,
+				0A4812A92ADDD8AC00BDD5C8 /* DetailViews - Section 2 */,
 				0AACD92F2A70D9F20070A518 /* Assets.xcassets */,
 				0AACD9312A70D9F20070A518 /* Preview Content */,
 			);
@@ -74,14 +94,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		0AAF091A2A76758500689E45 /* DetailViews */ = {
+		0AAF091A2A76758500689E45 /* DetailViews - Section 1 */ = {
 			isa = PBXGroup;
 			children = (
 				0AAF09162A76745800689E45 /* DefaultLayouts.swift */,
 				0AAF09182A76757800689E45 /* CustomLayouts.swift */,
 				0AACD9392A70DC6D0070A518 /* BeforeiOS16.swift */,
 			);
-			path = DetailViews;
+			path = "DetailViews - Section 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,11 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4812AF2ADDDC5100BDD5C8 /* StateGeometryReaderHStack.swift in Sources */,
 				0AACD92E2A70D9F10070A518 /* ContentView.swift in Sources */,
 				0AAF09192A76757800689E45 /* CustomLayouts.swift in Sources */,
 				0AAF09172A76745800689E45 /* DefaultLayouts.swift in Sources */,
+				0A4812AB2ADDD8F900BDD5C8 /* ProportionalWidthHStack.swift in Sources */,
 				0AACD92C2A70D9F10070A518 /* SwiftUI_AnyLayoutApp.swift in Sources */,
 				0AACD93A2A70DC6D0070A518 /* BeforeiOS16.swift in Sources */,
+				0A4812B12ADDDFC700BDD5C8 /* PreferenceKeyStateGeoReaderHStack.swift in Sources */,
+				0A4812AD2ADDDA2000BDD5C8 /* GeometryReaderHStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
